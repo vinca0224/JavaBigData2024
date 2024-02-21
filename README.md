@@ -19,7 +19,7 @@
         binVal = 0b11111111 #255 0~1
         octVal = 0o11 #9  0~7
         hexVal = 0xFF #255 0~9ABCDEF
-        print('2진수', binVal, '8진수', octVal, '16진수',hexVal)#특수 숫자형
+        print('2진수', binVal, '8진수', octVal, '16진수',hexVal)
         ```
         - 문자열형(연산, 문자열 포맷, 함수)
         - 리스트형, 튜플형(연산, 함수)
