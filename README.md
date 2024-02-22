@@ -3,12 +3,12 @@
 
 ##1일차
 - 파이썬 개발환경
-    - Github 가입
-    - Git 설치
-    - Github desktop 설치
-    - Visual Studio Code 설치
-    - Python 설치
-    - 나눔고딕코딩 글자체 설치
+    - Github 가입[Github](https://github.com/)
+    - Git 설치[Git]https://git-scm.com/
+    - Github desktop 설치[Githubdesktop] https://desktop.github.com/
+    - Visual Studio Code 설치[VScode]https://code.visualstudio.com/
+    - Python 설치[Python](https://www.python.org/)
+    - 나눔고딕코딩 글자체 설치[나눔고딕](https://github.com/naver/nanumfont)
 
 - 파이썬 학습
     - 파이썬 개요
