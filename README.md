@@ -39,7 +39,7 @@
         - Dictionary, 집합
         - 불형
         - None형
-        - 제어문
+        - 제어문(if, while, for)
 
 ##3일차
 
