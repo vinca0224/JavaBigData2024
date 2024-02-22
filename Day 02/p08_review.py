@@ -11,9 +11,9 @@ else:
     print('홀수')
 
 # Q2. 주민등록번호 나누기
-pin = "881120-106823"
-yyyymmdd = pin[0:5+1]
-num = pin[8:]
+pin = "881120-1068234"
+yyyymmdd = pin[0:5+1] #pin.split('-')[0]
+num = pin[7:] #pin.split('-')[1]
 print(yyyymmdd)
 print(num)
 
@@ -25,7 +25,7 @@ print(b)
 # Q4. 리스트 역순 정렬하기
 a = [1, 3, 5, 4, 2]
 a.sort()
-a.reverse()
+a.reverse() #a.sort(reverse = True)
 print(a)
 
 # Q5. 딕셔너리 값 추출하기
