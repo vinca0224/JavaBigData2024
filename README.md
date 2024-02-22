@@ -39,7 +39,8 @@
         - Dictionary, 집합
         - 불형
         - None형
-        - 제어문(if, while, for)
+        - 제어문(if, for, while)
+        - 제어문 연습
 
 ##3일차
 
