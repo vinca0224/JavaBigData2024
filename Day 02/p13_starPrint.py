@@ -22,5 +22,5 @@ print('별찍기 ----------->> ')
 
 for i in range(1,6): # 손 댈 필요 없음
     for j in range(i):
-        print('*', end='')
+        print('*',end='')
     print()

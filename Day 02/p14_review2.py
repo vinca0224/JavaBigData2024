@@ -33,3 +33,11 @@ print(average)
 numbers = [1,2,3,4,5]
 result = [num*2 for num in numbers if num % 2 ==1]
 print(result)
+
+# Q6
+a = 'Life is too short, you need python'
+if 'wife' in a: print("wife")
+elif 'python' in a and 'you' not in a: print('python')
+elif 'shirt' not in a: print('shirt')
+elif 'need' in a: print('need')
+else: print('none')
