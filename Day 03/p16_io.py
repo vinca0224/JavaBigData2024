@@ -20,6 +20,7 @@
 # int('50') #50
 # int((10,20,30)) # X, 튜플을 바로 int로 변경할 수 없다.
 
+# 튜플의 괄호 중에서 할당을 받는 쪽의 괄호()는 생략가능
 # (a1, a2, a3) = input('합산할 3개의 값을 입력(구분자 space) > ').split(' ')
 (a1, a2, a3) = map(int, (input('합산할 3개의 값을 입력(구분자 space) > ').split(' ')))
 print(a1)
@@ -29,4 +30,4 @@ a1 = int(a1)
 a2 = int(a2)
 a3 = int(a3)
 sum = a1 + a2 + a3
-print(f'합계는{sum}')
+print(f'합계는 {sum}')
