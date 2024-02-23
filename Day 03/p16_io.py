@@ -2,18 +2,18 @@
 # desc : 입/출력 학습
 
 #input() 함수 기본
-#res = input('인사말을 적으세요 >')
-#print(res)
+res = input('인사말을 적으세요 >')
+print(res)
 
-#num = input('곱할 수를 적으세요 >')
-#print(type(num))
+num = input('곱할 수를 적으세요 >')
+print(type(num))
 # input()으로 받는 값은 모두 문자열
-#num = int(num)
-#print(num * 2)
+num = int(num)
+print(num * 2)
 # 숫자를 입력받아서 계산 등을 할 때는 형변환이 필요
 
-# num = int(input('2로 곱할 숫자 입력 >'))
-# print(num * 2)
+num = int(input('2로 곱할 숫자 입력 >'))
+print(num * 2)
 
 ## 여러 값을 입력
 # int (40.2) #40
