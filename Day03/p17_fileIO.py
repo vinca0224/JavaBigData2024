@@ -1,4 +1,4 @@
-# file : p17_fileIo.py
+# file : p17_fileIO.py
 # desc : 파일 입/출력 학습
 
 # 컴퓨터에서 열면 무조건 닫아야 하는 것

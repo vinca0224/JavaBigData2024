@@ -4,8 +4,8 @@
 f = open('./Day 03/CHANGELOG.md',mode='r', encoding='utf-8')
 
 ###
-while(True):
-    read = f.readline()
+while True:
+    read = f.readline() # 한줄씩
     if not read: break # 더이상 읽을 값이 없으면 반복문 탈출
     print(read.replace('\n',''))
 f.close()
