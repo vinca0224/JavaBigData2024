@@ -36,7 +36,7 @@ def mul3(x):
 list1 = [1,2,3,4]
 print(list(map(mul3, list1)))
 
-# Q4. 최댓값과 최솟값의 합
+# Q4. 최댓값과 최솟값의 합 구하기
 list2 = [-8,2,7,5,-3,5,0,1]
 maxNum = max(list2)
 minNum = min(list2)
