@@ -1,3 +1,2 @@
-aaa/010-1234-5678/aaaa/aaaa
-bbb/010-9876-5432/bbbb/bbbb
-ccc/010-1472-5836/cccc/cccc
+ㅇㅇㅇ/010-9876-5432/bbbb/bbbb
+ㅁㅁㅁ/010-1472-5836/cccc/cccc
