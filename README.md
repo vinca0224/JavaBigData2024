@@ -65,33 +65,35 @@
         - 주소록 앱 만들기
 
         ```python
-            class Contact: # 주소록 클래스
-                # 생성자
-                def __init__(self, name, phoneNumber, eMail, addr) -> None:
-                    self.__name__ = name
-                    self.__phoneNumber__ = phoneNumber
-                    self.__eMail__ = eMail
-                    self.__addr__ = addr
+        class Contact: # 주소록 클래스
+            # 생성자
+            def __init__(self, name, phoneNumber, eMail, addr) -> None:
+                self.__name__ = name
+                self.__phoneNumber__ = phoneNumber
+                self.__eMail__ = eMail
+                self.__addr__ = addr
 
-                def __str__(self) -> str: # 객체의 상태출력 사용자가 원하는 형태로 출력
-                    res = (f'이  름 : {self.__name__}\n'
-                        f'핸드폰 : {self.__phoneNumber__}\n'
-                        f'이메일 : {self.__eMail__}\n'
-                        f'주  소 : {self.__addr__}')
-                    return res
+            def __str__(self) -> str: # 객체의 상태출력 사용자가 원하는 형태로 출력
+                res = (f'이  름 : {self.__name__}\n'
+                    f'핸드폰 : {self.__phoneNumber__}\n'
+                    f'이메일 : {self.__eMail__}\n'
+                    f'주  소 : {self.__addr__}')
+                return res
                 
-                # 연락처 여부 확인
-                def isNameExist(self, name):
-                    if self.__name__ == name: # 찾는 이름 존재
-                        return True
-                    else:
-                        return False
+            # 연락처 여부 확인
+            def isNameExist(self, name):
+                if self.__name__ == name: # 찾는 이름 존재
+                    return True
+                else:
+                    return False
                 
-                def getInfo(self):
-                    return self.__name__, self.__phoneNumber__, self.__eMail__, self.__addr__
+            def getInfo(self):
+                return self.__name__, self.__phoneNumber__, self.__eMail__, self.__addr__
         ```
 
         ![주소록앱](https://raw.githubusercontent.com/vinca0224/JavaBigData2024/main/images/bigdata01.gif)
+
+        - Windows App 만들기(PyQt 5)
 
 ##6일차
 
