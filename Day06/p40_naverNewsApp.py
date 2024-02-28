@@ -63,7 +63,7 @@ class qtApp(QWidget): #Qwidget이 가지고 있는 속성, 변수, 함수를 다
             date = f'{year}-{month}-{day}'
             
             self.tblSearchResult.setItem(n,2,QTableWidgetItem(date))
-            n += 2
+            n += 1
 
         self.tblSearchResult.setColumnWidth(0, 465)
         self.tblSearchResult.setColumnWidth(1, 200)
