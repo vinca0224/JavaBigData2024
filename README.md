@@ -103,4 +103,10 @@
         - PyQt5 학습
             - QWidget 자식 클래스 종류 학습
 
+            ![QtApp](https://raw.githubusercontent.com/vinca0224/JavaBigData2024/main/images/bigdata03.png)
+
+            - Naver 뉴스 API 검색 앱
+
+             ![QtApp](https://raw.githubusercontent.com/vinca0224/JavaBigData2024/main/images/bigdata04.png)
+
 ##7일차

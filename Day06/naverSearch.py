@@ -30,7 +30,7 @@ class NaverSearch:
     # 실제 동작함수
     def getSearchResult(self, searchWord):
         baseUrl = 'https://openapi.naver.com/v1/search/news.json'
-        params = f'?query={quote(searchWord)}&start=1&display=10'
+        params = f'?query={quote(searchWord)}&start=1&display=20'
         finalUrl = baseUrl + params
 
         result = self.getRequestUrl(finalUrl)
