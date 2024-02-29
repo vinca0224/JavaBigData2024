@@ -115,4 +115,21 @@
         - PyQt5 학습
             - Naver 뉴스 API 검색 앱 완성
             - 스레드 개념, 학습
+
+             ![스레드](https://raw.githubusercontent.com/vinca0224/JavaBigData2024/main/images/bigdata05.png)
+            
+            - TTS
+            - QR코드 생성기
+
+             ![QR](https://raw.githubusercontent.com/vinca0224/JavaBigData2024/main/images/bigdata06.png)
+            
+             - 구글번역기
+
+             ![QR](https://raw.githubusercontent.com/vinca0224/JavaBigData2024/main/images/bigdata07.png)
+
         - json 학습
+
+##7일차
+- 파이썬 학습 
+    - 파이썬 응용
+        - 파이썬 자동화

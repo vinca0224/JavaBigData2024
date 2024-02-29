@@ -18,7 +18,7 @@ class BackgroundWorker(QThread): # PyQt용 스레드
         self.parent = parent
 
     def run(self) -> None:
-        maxVal = 1_000_000
+        maxVal = 1000
         self.initUiSignal.emit(maxVal)
 
         for i in range(maxVal):
