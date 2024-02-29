@@ -54,18 +54,23 @@ class qtApp(QWidget): #Qwidget이 가지고 있는 속성, 변수, 함수를 다
 
         n = 0
         for post in result:
-            self.tblSearchResult.setItem(n,0,QTableWidgetItem(post['title']))
+            # HTML 태그, 특수문자 삭제(<b> </b>, &lt; [<], &gt;[>], &quot;["], &nbsp;[ ])
+            title = str(post['title']).replace('<b>','').replace('</b>','').replace('&quot;','"')
+
+            self.tblSearchResult.setItem(n,0,QTableWidgetItem(title))
             self.tblSearchResult.setItem(n,1,QTableWidgetItem(post['link']))
-            tempDate = str(post['pubDate']).split(' ')
-            year = tempDate[3]
-            month = time.strptime(tempDate[2],'%b').tm_mon
-            day = tempDate[1]
+            # 현재 날짜는 Thus, 29, Feb, 2024 09:00:00 +09:00 를 2024-02-029로 변경
+            tempDates = str(post['pubDate']).split(' ')
+            year = tempDates[3]
+            month = time.strptime(tempDates[2],'%b').tm_mon # Feb, Mar 같은 영어단축이름을 숫자로 변경하는 로직
+            month = f'{month:02d}'
+            day = tempDates[1]
             date = f'{year}-{month}-{day}'
             
             self.tblSearchResult.setItem(n,2,QTableWidgetItem(date))
             n += 1
 
-        self.tblSearchResult.setColumnWidth(0, 465)
+        self.tblSearchResult.setColumnWidth(0, 430)
         self.tblSearchResult.setColumnWidth(1, 200)
         self.tblSearchResult.setEditTriggers(QAbstractItemView.NoEditTriggers) # 컬럼 더블클릭 금지
 

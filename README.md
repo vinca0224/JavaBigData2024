@@ -107,6 +107,12 @@
 
             - Naver 뉴스 API 검색 앱
 
-             ![QtApp](https://raw.githubusercontent.com/vinca0224/JavaBigData2024/main/images/bigdata04.png)
+            ![QtApp](https://raw.githubusercontent.com/vinca0224/JavaBigData2024/main/images/bigdata04.png)
 
 ##7일차
+- 파이썬 학습
+    - 파이썬 응용
+        - PyQt5 학습
+            - Naver 뉴스 API 검색 앱 완성
+            - 스레드 개념, 학습
+        - json 학습
