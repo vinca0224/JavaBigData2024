@@ -132,14 +132,24 @@
 ##8일차
 - 파이썬 학습 
     - 파이썬 응용
-        - 파이썬 자동화
-            - PyautoGui 모듈(마우스, 키보드, 화면 캡쳐)
-            - 슬랙 webhook로 모바일 메시지 전송
+        - PyautoGui 모듈(마우스, 키보드, 화면 캡쳐)
+        - 슬랙 webhook로 모바일 메시지 전송
 
-            <!-- ![slack](https://raw.githubusercontent.com/vinca0224/JavaBigData2024/main/images/bigdata08.png) -->
-            <!-- html 태그로 이미지를 삽입하면 문제 없음 -->
-            <img src="https://raw.githubusercontent.com/vinca0224/JavaBigData2024/main/images/bigdata08.png" width=250>
+        <!-- ![slack](https://raw.githubusercontent.com/vinca0224/JavaBigData2024/main/images/bigdata08.png) -->
+        <!-- html 태그로 이미지를 삽입하면 문제 없음 -->
+        <img src="https://raw.githubusercontent.com/vinca0224/JavaBigData2024/main/images/bigdata08.png" width=250>
+
+        - TEsseract 프로그램을 이용한 이미지에서 글자 추출(인식율을 높이려면 트레이닝을 통한 트레이닝 데이터가 쌓여야 함)
+
+        ![OCR](https://raw.githubusercontent.com/vinca0224/JavaBigData2024/main/images/bigdata09.png)
 
 ##9일차
+- 파이썬 학습 
+    - 파이썬 응용
+        - 이미지 처리 OpenCV
+        - 플라스크 웹서버
+        - 그림판 만들기
+        - 메모장 만들기
+        - Jupyter Notebook(빅데이터 분석, 코딩 테스트)
 
 ##10일차
