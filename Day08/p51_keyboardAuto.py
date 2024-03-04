@@ -2,7 +2,7 @@
 # desc : 키보드 자동화 with PyAutoGui
 
 import pyautogui as auto
-import pyperclip
+import pyperclip as clip
 
 '''
 한글 입력은 pyperclip
@@ -30,4 +30,7 @@ auto.press('A')
 
 # auto.hotkey('ctrl', 'v') # 붙여넣기
 
-auto.write('안녕하세요. 파이썬입니다.')
+# 한글은 pyautoguo에서 입력할 수 없음
+clip.copy('안녕하세요. 파이썬입니다.') # 클립보드에 한글 내용을 저장
+auto.hotkey('ctrl', 'v') # 붙여넣기
+
