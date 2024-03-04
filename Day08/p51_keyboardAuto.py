@@ -1,0 +1,33 @@
+# file : p51_keyboardAuto.py
+# desc : 키보드 자동화 with PyAutoGui
+
+import pyautogui as auto
+import pyperclip
+
+'''
+한글 입력은 pyperclip
+> pip install pyperclip
+'''
+
+# auto.mouseInfo()
+# auto.click(418, 639) # 420, 639
+auto.press('enter')
+auto.write('print("Hello, Python!")',interval=0.01)
+auto.write("\n", interval=0.01)
+auto.typewrite('print("Life is short, You need python")', interval=0.01) # write()와 동알
+
+# 키보드 프레스
+auto.press('enter')
+auto.press('A')
+
+# 키보드 단축키로 입력
+# auto.hotkey('ctrl', 'a') # 전체 선택
+# auto.hotkey('ctrl', 'c') # 복사
+# auto.press('esc') # 선택 해제
+# auto.press('\n')
+# auto.press('\n')
+# auto.press('\n')
+
+# auto.hotkey('ctrl', 'v') # 붙여넣기
+
+auto.write('안녕하세요. 파이썬입니다.')
