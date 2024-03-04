@@ -133,7 +133,10 @@
 - 파이썬 학습 
     - 파이썬 응용
         - 파이썬 자동화
-            - PyautoGui 모듈
+            - PyautoGui 모듈(마우스, 키보드, 화면 캡쳐)
+            - 슬랙 webhook로 모바일 메시지 전송
+
+            ![slack](https://raw.githubusercontent.com/vinca0224/JavaBigData2024/main/images/bigdata08.png)
 
 ##9일차
 

@@ -25,6 +25,7 @@ for region in regions:
     # 캡쳐시작위치:400 258, 종료위치:1070 900
     startX, startY = 400, 258
     endX, endY = 1070, 900
-
-    auto.screenshot(f'./Day08/{region}날씨.png', region=(startX,startY, endX-startX, endY-startY))
+    # auto.screenshot()만 사용하면 macos에서 동작안함
+    im = auto.screenshot(region=(startX,startY, endX-startX, endY-startY))
+    im.save(f'./Day08/{region}날씨.png')
     print('저장완료!')
