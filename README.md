@@ -137,6 +137,7 @@
             - 슬랙 webhook로 모바일 메시지 전송
 
             <!-- ![slack](https://raw.githubusercontent.com/vinca0224/JavaBigData2024/main/images/bigdata08.png) -->
+            <!-- html 태그로 이미지를 삽입하면 문제 없음 -->
             <img src="https://raw.githubusercontent.com/vinca0224/JavaBigData2024/main/images/bigdata08.png" width=250>
 
 ##9일차
