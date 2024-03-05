@@ -5,7 +5,7 @@
 > pip install Flask
 '''
 
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__) # 현재의 모듈로 flask 앱 만듬
 
@@ -13,13 +13,13 @@ app = Flask(__name__) # 현재의 모듈로 flask 앱 만듬
 def hello():
     return 'Hello, Flask!'
 
-@app.route('/1')
+@app.route('/unit')
 def testPage1():
-    return 'Page1'
+    return render_template('unit.html')
 
-@app.route('/2')
+@app.route('/naver')
 def testPage2():
-    return 'Page2'
+    return render_template('register.html')
 
 def main():
     app.run(debug=True, port=80)
