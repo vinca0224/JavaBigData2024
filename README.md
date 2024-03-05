@@ -139,7 +139,7 @@
         <!-- html 태그로 이미지를 삽입하면 문제 없음 -->
         <img src="https://raw.githubusercontent.com/vinca0224/JavaBigData2024/main/images/bigdata08.png" width=250>
 
-        - TEsseract 프로그램을 이용한 이미지에서 글자 추출(인식율을 높이려면 트레이닝을 통한 트레이닝 데이터가 쌓여야 함)
+        - Tesseract 프로그램을 이용한 이미지에서 글자 추출(인식율을 높이려면 트레이닝을 통한 트레이닝 데이터가 쌓여야 함)
 
         ![OCR](https://raw.githubusercontent.com/vinca0224/JavaBigData2024/main/images/bigdata09.png)
 
@@ -147,7 +147,8 @@
 - 파이썬 학습 
     - 파이썬 응용
         - 이미지 처리 OpenCV
-        - 플라스크 웹서버
+        - Flask, Django 웹서버
+
         - 그림판 만들기
         - 메모장 만들기
         - Jupyter Notebook(빅데이터 분석, 코딩 테스트)
