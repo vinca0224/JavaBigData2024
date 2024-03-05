@@ -16,10 +16,38 @@
     <height>550</height>
    </size>
   </property>
+  <property name="font">
+   <font>
+    <family>맑은 고딕</family>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lblCanvas">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color : white</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
@@ -33,10 +61,10 @@
     <property name="title">
      <string>파일(&amp;F)</string>
     </property>
-    <addaction name="action_N"/>
-    <addaction name="action_O"/>
-    <addaction name="action_S"/>
-    <addaction name="action_X"/>
+    <addaction name="action_New"/>
+    <addaction name="action_Open"/>
+    <addaction name="action_Save"/>
+    <addaction name="action_Exit"/>
    </widget>
    <widget class="QMenu" name="menu_new">
     <property name="title">
@@ -46,17 +74,24 @@
      <property name="title">
       <string>펜(&amp;P)</string>
      </property>
-     <addaction name="actionRed_R"/>
-     <addaction name="actionGreen_G"/>
-     <addaction name="actionBlue_B"/>
+     <addaction name="action_PenRed"/>
+     <addaction name="action_PenGreen"/>
+     <addaction name="action_PenBlue"/>
+    </widget>
+    <widget class="QMenu" name="menu_T">
+     <property name="title">
+      <string>변환(&amp;T)</string>
+     </property>
+     <addaction name="action_GrayScale"/>
     </widget>
     <addaction name="menu_P_2"/>
+    <addaction name="menu_T"/>
    </widget>
    <widget class="QMenu" name="menu_P">
     <property name="title">
      <string>도움말(&amp;H)</string>
     </property>
-    <addaction name="actionAbout_program_A"/>
+    <addaction name="action_AboutProgram"/>
    </widget>
    <addaction name="menu_file"/>
    <addaction name="menu_new"/>
@@ -73,48 +108,100 @@
    <attribute name="toolBarBreak">
     <bool>false</bool>
    </attribute>
+   <addaction name="action_New"/>
+   <addaction name="separator"/>
+   <addaction name="action_Open"/>
+   <addaction name="separator"/>
+   <addaction name="action_Save"/>
+   <addaction name="separator"/>
+   <addaction name="action_PenRed"/>
+   <addaction name="separator"/>
+   <addaction name="action_PenGreen"/>
+   <addaction name="separator"/>
+   <addaction name="action_PenBlue"/>
+   <addaction name="separator"/>
+   <addaction name="action_AboutProgram"/>
   </widget>
-  <action name="action_N">
+  <action name="action_New">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icon/imgs/new.png</normaloff>:/icon/imgs/new.png</iconset>
+   </property>
    <property name="text">
     <string>새 그림(&amp;N)</string>
    </property>
   </action>
-  <action name="action_O">
+  <action name="action_Open">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icon/imgs/open.png</normaloff>:/icon/imgs/open.png</iconset>
+   </property>
    <property name="text">
     <string>열기(&amp;O)</string>
    </property>
   </action>
-  <action name="action_S">
+  <action name="action_Save">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icon/imgs/save.png</normaloff>:/icon/imgs/save.png</iconset>
+   </property>
    <property name="text">
     <string>저장(&amp;S)</string>
    </property>
   </action>
-  <action name="action_X">
+  <action name="action_Exit">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icon/imgs/exit.png</normaloff>:/icon/imgs/exit.png</iconset>
+   </property>
    <property name="text">
     <string>종료(&amp;X)</string>
    </property>
   </action>
-  <action name="actionRed_R">
+  <action name="action_PenRed">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icon/imgs/red.png</normaloff>:/icon/imgs/red.png</iconset>
+   </property>
    <property name="text">
     <string>Red(R)</string>
    </property>
   </action>
-  <action name="actionGreen_G">
+  <action name="action_PenGreen">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icon/imgs/green.png</normaloff>:/icon/imgs/green.png</iconset>
+   </property>
    <property name="text">
     <string>Green(G)</string>
    </property>
   </action>
-  <action name="actionBlue_B">
+  <action name="action_PenBlue">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icon/imgs/blue.png</normaloff>:/icon/imgs/blue.png</iconset>
+   </property>
    <property name="text">
     <string>Blue(B)</string>
    </property>
   </action>
-  <action name="actionAbout_program_A">
+  <action name="action_AboutProgram">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icon/imgs/about.png</normaloff>:/icon/imgs/about.png</iconset>
+   </property>
    <property name="text">
     <string>About this program(&amp;A)</string>
    </property>
   </action>
+  <action name="action_GrayScale">
+   <property name="text">
+    <string>그레이스케일(&amp;G)</string>
+   </property>
+  </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
  <connections/>
 </ui>

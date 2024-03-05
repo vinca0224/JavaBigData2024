@@ -147,12 +147,11 @@
 
     ![안면인식](https://raw.githubusercontent.com/vinca0224/JavaBigData2024/main/images/bigdata10.gif)
 
-    - Flask, Django 웹서버
+    - [Flask](https://flask-docs-kr.readthedocs.io/ko/latest/index.html), [Django](https://developer.mozilla.org/ko/docs/Learn/Server-side/Django) 웹서버
+    - 이미지 에디터 만들기(with PyQt)
 
-    [Flask](https://flask-docs-kr.readthedocs.io/ko/latest/index.html)
-
-    - 그림판 만들기
+    ![이미지 에디터](https://raw.githubusercontent.com/vinca0224/JavaBigData2024/main/images/bigdata11.gif)
+##10일차
+- 파이썬 응용
     - 메모장 만들기
     - Jupyter Notebook(빅데이터 분석, 코딩 테스트)
-
-##10일차
