@@ -167,5 +167,10 @@
 
     - Jupyter Notebook(빅데이터 분석, 코딩 테스트)
         - Ctrl + Shift + P(명령)
+        - ChatGPT API 사용
+    
     - 메모장 만들기
+    [메모장] (https://www.youtube.com/watch?v=6jPXGgON6oU&list=PLnIaYcDMsScwsKo1rQ18cLHvBdjou-kb5&index=5)
+    [메모장] (https://pagichacha.tistory.com/44)
+    
     
