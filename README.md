@@ -151,6 +151,7 @@
     - 이미지 에디터 만들기(with PyQt)
 
     ![이미지 에디터](https://raw.githubusercontent.com/vinca0224/JavaBigData2024/main/images/bigdata11.gif)
+    
 ##10일차
 - 파이썬 응용
     - 메모장 만들기
