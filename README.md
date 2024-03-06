@@ -154,5 +154,14 @@
     
 ##10일차
 - 파이썬 응용
+    - 이미지 에디터 기능 추가(그레이스케일)
+    - 실행파일 만들기
+        - PyInstaller 모듈 설치
+        ```shell
+        > pip install pyinstaller
+        > pyinstaller -w -F pythonfile.py
+        ```
+        - -w는 윈도우 창만 실행하고 콘솔창 삭제, -F _internal 폴더 생성이 안되고 One file로만 만들어줌
+        - 실패, 재생성시는 build, dist 폴더 삭제, .spec 삭제 뒤 다시 명령어 실행 
     - 메모장 만들기
     - Jupyter Notebook(빅데이터 분석, 코딩 테스트)
