@@ -21,7 +21,7 @@ class WinApp(QMainWindow): #Qwidget 아님
         # self.setWindowIcon(QIcon('./Day10/imgs/editor.png'))
         
         self.setWindowTitle('메모장 v0.5')
-        text = QPlainTextEdit('plainTextEdit')
+        text = QPlainTextEdit()
         self.show()
 
     def initSignal(self):
